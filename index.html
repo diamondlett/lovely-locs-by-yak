@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Lovely Locs by YaK — Loc Styling & Care by Ya Ya</title>
+  <meta name="description" content="Lovely Locs by YaK — personalized loc maintenance and styling by Ya Ya. Retwists, styles, and healthy loc care. Neat. Fresh. Confident." />
+  <meta name="theme-color" content="#241513" />
+  <meta property="og:title" content="Lovely Locs by YaK" />
+  <meta property="og:description" content="Personalized loc maintenance & styling by Ya Ya. Neat. Fresh. Confident." />
+  <meta property="og:image" content="assets/img/logo-badge.jpg" />
+  <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+  <link rel="apple-touch-icon" href="assets/img/favicon.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Jost:wght@300;400;500&family=Pinyon+Script&display=swap" rel="stylesheet" />
+  <link rel="preload" as="image" href="assets/img/gallery/fresh-retwist.jpg" />
+  <link rel="stylesheet" href="css/styles.css?v=7" />
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body class="is-loading">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ INTRO LOADER ============ -->
+  <div class="loader" aria-hidden="true">
+    <div class="loader__inner">
+      <img class="loader__badge" src="assets/img/logo-badge.jpg" alt="" width="670" height="700" />
+      <p class="loader__words"><span>Neat.</span><span>Fresh.</span><span>Confident.</span></p>
+    </div>
+  </div>
+
+  <!-- ============ CURSOR (fine pointers only) ============ -->
+  <div class="cursor" aria-hidden="true"><span class="cursor__label"></span></div>
+
+  <!-- ============ NAVIGATION ============ -->
+  <header class="nav" data-nav>
+    <div class="nav__bar">
+      <a href="#home" class="wordmark" aria-label="Lovely Locs by YaK — back to top">
+        <span class="wordmark__lovely">Lovely</span><span class="wordmark__locs">Locs</span><span class="wordmark__by">by YaK</span>
+      </a>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#home" data-link="home">Home</a>
+        <a href="#about" data-link="about">About</a>
+        <a href="#services" data-link="services">Services</a>
+        <a href="#gallery" data-link="gallery">Gallery</a>
+      </nav>
+      <a href="#book" class="btn btn--sm btn--dark nav__cta" data-link="book">Book Now</a>
+      <button class="nav__toggle" aria-expanded="false" aria-controls="menu" aria-label="Open menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile menu -->
+  <div class="menu" id="menu" aria-hidden="true">
+    <img class="menu__pattern" src="assets/img/pattern.jpg" alt="" loading="lazy" />
+    <nav class="menu__links" aria-label="Mobile">
+      <a href="#home"><small>01</small>Home</a>
+      <a href="#about"><small>02</small>About</a>
+      <a href="#services"><small>03</small>Services</a>
+      <a href="#gallery"><small>04</small>Gallery</a>
+      <a href="#book"><small>05</small><em>Book Now</em></a>
+    </nav>
+    <div class="menu__foot">
+      <p>Neat. Fresh. Confident.</p>
+      <p class="menu__social"><a href="https://www.instagram.com/yakira.a" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.facebook.com/share/1EoH3sLKGt/" target="_blank" rel="noopener">Facebook</a></p>
+    </div>
+  </div>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home" data-section="home">
+      <div class="hero__glow" aria-hidden="true"></div>
+      <svg class="float-heart float-heart--a" viewBox="0 0 48 44" aria-hidden="true"><path d="M24 41S3 28.5 3 14.5A10.5 10.5 0 0 1 24 9a10.5 10.5 0 0 1 21 5.5C45 28.5 24 41 24 41Z"/></svg>
+      <svg class="float-heart float-heart--b" viewBox="0 0 48 44" aria-hidden="true"><path d="M24 41S3 28.5 3 14.5A10.5 10.5 0 0 1 24 9a10.5 10.5 0 0 1 21 5.5C45 28.5 24 41 24 41Z"/></svg>
+
+      <div class="hero__grid container">
+        <div class="hero__copy">
+          <p class="eyebrow hero__eyebrow" data-intro><span class="eyebrow__line"></span>Loc care &amp; styling by Ya Ya</p>
+          <h1 class="hero__title" aria-label="Lovely locs, lovingly crafted.">
+            <span class="line"><span class="line__inner">Lovely locs,</span></span>
+            <span class="line"><span class="line__inner"><em class="shimmer-text">lovingly</em></span></span>
+            <span class="line"><span class="line__inner">crafted.</span></span>
+          </h1>
+          <p class="tagline" data-intro aria-label="Neat. Fresh. Confident.">
+            <span>Neat.</span><i aria-hidden="true">✦</i><span>Fresh.</span><i aria-hidden="true">✦</i><span>Confident.</span>
+          </p>
+          <p class="hero__lede" data-intro>Personalized loc maintenance and styling — roots refreshed, styles that turn heads, and care that keeps your locs healthy between every visit.</p>
+          <div class="hero__ctas" data-intro>
+            <a class="btn btn--dark btn--shine" href="#book" data-sms data-cursor="Text">
+              <span>Book Your Appointment</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a class="link-arrow" href="#gallery">Explore My Work <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6"/></svg></a>
+          </div>
+        </div>
+
+        <div class="hero__visual">
+          <figure class="hero__arch" data-speed="-0.06">
+            <img src="assets/img/gallery/fresh-retwist.jpg" alt="Fresh retwist with neat, defined parts, styled by Ya Ya" width="899" height="1200" fetchpriority="high" />
+          </figure>
+          <figure class="hero__pebble" data-speed="0.08">
+            <img src="assets/img/gallery/retwist-detail-sm.jpg" alt="Close-up of a retwist with honey-blonde twisted ends" width="540" height="720" />
+          </figure>
+          <div class="badge-ring" data-speed="0.12" aria-hidden="true">
+            <svg viewBox="0 0 200 200">
+              <defs><path id="ring" d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0"/></defs>
+              <text><textPath href="#ring">NEAT · FRESH · CONFIDENT · LOVELY LOCS BY YAK · </textPath></text>
+            </svg>
+            <img src="assets/img/logo-badge.jpg" alt="" width="670" height="700" />
+          </div>
+          <p class="hero__caption" aria-hidden="true"><span>No. 01</span> The Fresh Retwist</p>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-cue" aria-label="Scroll to About"><span></span></a>
+    </section>
+
+    <!-- ============ MARQUEE ============ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Retwist</span><i>✦</i><span><em>Retwist + Style</em></span><i>✦</i><span>Braids</span><i>✦</i><span><em>Barrels</em></span><i>✦</i><span>Updos</span><i>✦</i><span><em>Healthy Loc Care</em></span><i>✦</i>
+        <span>Retwist</span><i>✦</i><span><em>Retwist + Style</em></span><i>✦</i><span>Braids</span><i>✦</i><span><em>Barrels</em></span><i>✦</i><span>Updos</span><i>✦</i><span><em>Healthy Loc Care</em></span><i>✦</i>
+      </div>
+    </div>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="about" id="about" data-section="about">
+      <div class="container about__grid">
+        <div class="about__visual">
+          <div class="about__frame" data-reveal="fade" aria-hidden="true"></div>
+          <figure class="about__portrait" data-reveal="clip">
+            <img src="assets/img/ya-ya.jpg" alt="Ya Ya, loc stylist and owner of Lovely Locs by YaK" width="800" height="1000" loading="lazy" />
+          </figure>
+          <p class="about__signature" data-reveal="up" aria-hidden="true">Ya Ya</p>
+          <div class="sticker" data-speed="0.05" aria-hidden="true">
+            <span>your<br/><em>stylist</em></span>
+          </div>
+        </div>
+
+        <div class="about__copy">
+          <p class="eyebrow" data-reveal="up"><span class="eyebrow__line"></span>Meet your stylist</p>
+          <h2 class="display" data-reveal="up">Hi, I’m <em>Ya&nbsp;Ya.</em></h2>
+          <p class="about__lead" data-reveal="up">I’m a loc stylist with a real passion for what locs can become — and for the person wearing them.</p>
+          <p data-reveal="up">Every appointment is about transforming your locs and enhancing the natural beauty you already carry, through styling and care that’s personalized to you: your hair, your goals, your vibe.</p>
+          <p data-reveal="up">Whether you’re keeping it neat with a fresh retwist or ready to switch it up with something new, your hair journey is my top priority. Always.</p>
+
+          <ul class="pillars" role="list">
+            <li data-reveal="up">
+              <span class="pillars__num">i.</span>
+              <h3>Personalized care</h3>
+              <p>Every visit is shaped around your locs and what you want from them.</p>
+            </li>
+            <li data-reveal="up">
+              <span class="pillars__num">ii.</span>
+              <h3>Healthy maintenance</h3>
+              <p>Fresh roots and neat parts that keep your locs looking their best.</p>
+            </li>
+            <li data-reveal="up">
+              <span class="pillars__num">iii.</span>
+              <h3>Creative styling</h3>
+              <p>From braids to barrels to updos — styles that let you show up as you.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ STATEMENT ============ -->
+    <section class="statement" aria-label="Brand statement">
+      <img class="statement__pattern" src="assets/img/pattern.jpg" alt="" loading="lazy" aria-hidden="true" />
+      <div class="container statement__inner">
+        <p class="eyebrow eyebrow--light"><span class="eyebrow__line"></span>The Lovely Locs promise</p>
+        <p class="statement__text" data-words>Locs are self-expression. My mission is to help you show off your unique beauty through stunning loc styles — so every transformation leaves you with more confidence, more creativity, and a look that feels completely, unmistakably <em>you.</em></p>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="services" id="services" data-section="services">
+      <div class="container">
+        <header class="section-head section-head--light">
+          <p class="eyebrow eyebrow--light" data-reveal="up"><span class="eyebrow__line"></span>Services &amp; pricing</p>
+          <h2 class="display" data-reveal="up">The service <em>menu.</em></h2>
+          <p class="section-head__sub" data-reveal="up">Two signature services, done with care from root to tip.</p>
+        </header>
+
+        <div class="menu-cards">
+          <article class="svc" data-reveal="up" data-tilt>
+            <div class="svc__bg" aria-hidden="true"><img src="assets/img/gallery/retwist-honey-tips-sm.jpg" alt="" loading="lazy" /></div>
+            <div class="svc__inner">
+              <div class="svc__top">
+                <span class="svc__num">No. 01</span>
+                <span class="svc__price" aria-label="70 dollars"><sup>$</sup><span data-count="70">70</span></span>
+              </div>
+              <h3 class="svc__name">Retwist</h3>
+              <p class="svc__kicker">The root refresh</p>
+              <div class="svc__rule" aria-hidden="true"></div>
+              <p class="svc__desc">Complete loc maintenance — gel application and a full retwist to refresh your roots and bring back that neat, polished look.</p>
+              <ul class="svc__list" role="list">
+                <li>Complete loc maintenance</li>
+                <li>Gel application</li>
+                <li>Full retwist of the roots</li>
+              </ul>
+              <a class="btn btn--light svc__btn" href="#book" data-sms data-service="Retwist ($70)" data-cursor="Text">
+                <span>Book a Retwist</span>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="svc svc--feature" data-reveal="up" data-tilt>
+            <div class="svc__bg" aria-hidden="true"><img src="assets/img/gallery/braided-locs-sm.jpg" alt="" loading="lazy" /></div>
+            <div class="svc__inner">
+              <div class="svc__top">
+                <span class="svc__num">No. 02</span>
+                <span class="svc__price" aria-label="80 dollars"><sup>$</sup><span data-count="80">80</span></span>
+              </div>
+              <h3 class="svc__name">Retwist <em>+</em> Style</h3>
+              <p class="svc__kicker">Refresh, then make it yours</p>
+              <div class="svc__rule" aria-hidden="true"></div>
+              <p class="svc__desc">Full retwist maintenance plus your choice of an available style — braids, barrels, updos, and more.</p>
+              <ul class="svc__list" role="list">
+                <li>Everything in the Retwist</li>
+                <li>Your choice of style</li>
+                <li>Braids · barrels · updos &amp; more</li>
+              </ul>
+              <a class="btn btn--rose svc__btn" href="#book" data-sms data-service="Retwist + Style ($80)" data-cursor="Text">
+                <span>Book Retwist + Style</span>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </a>
+            </div>
+          </article>
+        </div>
+
+        <aside class="notes" data-reveal="up" aria-label="Before your appointment">
+          <h3 class="notes__title"><span>Before</span> your appointment</h3>
+          <ul role="list">
+            <li>
+              <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 27s-10-6-10-13a5.5 5.5 0 0 1 10-3 5.5 5.5 0 0 1 10 3c0 7-10 13-10 13Z"/></svg>
+              <p>Please bring your own <strong>hair, charms, or accessories</strong> to your appointment.</p>
+            </li>
+            <li>
+              <svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="11"/><path d="M16 10v7M16 21.5v.5"/></svg>
+              <p><strong>Additional fees may apply</strong> for installation.</p>
+            </li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ============ GALLERY ============ -->
+    <section class="gallery" id="gallery" data-section="gallery">
+      <div class="container">
+        <header class="section-head gallery__head">
+          <div>
+            <p class="eyebrow" data-reveal="up"><span class="eyebrow__line"></span>Portfolio</p>
+            <h2 class="display" data-reveal="up">The Lovely <em>Gallery.</em></h2>
+          </div>
+          <p class="section-head__sub" data-reveal="up">Real clients, real locs. Tap any look to see it up close.</p>
+        </header>
+
+        <div class="g-grid">
+          <!-- Each tile: src (small for grid), data-full (large for lightbox) -->
+          <button class="g-item g-1" data-full="assets/img/gallery/fresh-retwist.jpg" data-caption="Fresh retwist" data-cursor="View">
+            <img src="assets/img/gallery/fresh-retwist-sm.jpg" alt="Fresh retwist with neat, defined parts" width="540" height="720" loading="lazy" />
+            <span class="g-cap"><small>01</small>Fresh retwist</span>
+          </button>
+          <button class="g-item g-2" data-full="assets/img/gallery/twisted-crown.jpg" data-caption="Twisted crown with blonde rope border" data-cursor="View">
+            <img src="assets/img/gallery/twisted-crown-sm.jpg" alt="Retwisted locs with a blonde twisted rope border around the crown" width="702" height="720" loading="lazy" />
+            <span class="g-cap"><small>02</small>Twisted crown</span>
+          </button>
+          <div class="g-quote" data-reveal="up">
+            <p>“Neat.<br/>Fresh.<br/><em>Confident.</em>”</p>
+            <span>— the Lovely Locs standard</span>
+          </div>
+          <button class="g-item g-4" data-full="assets/img/gallery/retwist-detail.jpg" data-caption="Retwist with honey-blonde twisted ends" data-cursor="View">
+            <img src="assets/img/gallery/retwist-detail-sm.jpg" alt="Retwist with honey-blonde twisted ends" width="540" height="720" loading="lazy" />
+            <span class="g-cap"><small>03</small>Honey twist detail</span>
+          </button>
+          <button class="g-item g-5" data-full="assets/img/gallery/curled-locs.jpg" data-caption="Curled locs with honey-brown ends" data-cursor="View">
+            <img src="assets/img/gallery/curled-locs-sm.jpg" alt="Client smiling with bouncy curled locs and honey-brown ends" width="720" height="401" loading="lazy" />
+            <span class="g-cap"><small>04</small>Curled locs</span>
+          </button>
+          <button class="g-item g-6" data-full="assets/img/gallery/braided-locs.jpg" data-caption="Braided locs with blonde tips" data-cursor="View">
+            <img src="assets/img/gallery/braided-locs-sm.jpg" alt="Braided loc style with clean parts and blonde tips" width="587" height="720" loading="lazy" />
+            <span class="g-cap"><small>05</small>Braided style</span>
+          </button>
+          <button class="g-item g-7" data-full="assets/img/gallery/retwist-honey-tips.jpg" data-caption="Retwist with honey-blonde tips" data-cursor="View">
+            <img src="assets/img/gallery/retwist-honey-tips-sm.jpg" alt="Top view of a retwist with defined parts and honey-blonde tips" width="707" height="720" loading="lazy" />
+            <span class="g-cap"><small>06</small>Retwist, honey tips</span>
+          </button>
+          <button class="g-item g-8" data-full="assets/img/gallery/two-strand-twists.jpg" data-caption="Two-strand twists" data-cursor="View">
+            <img src="assets/img/gallery/two-strand-twists-sm.jpg" alt="Two-strand twisted locs with blonde accents and box parts" width="540" height="720" loading="lazy" />
+            <span class="g-cap"><small>07</small>Two-strand twists</span>
+          </button>
+          <button class="g-item g-9" data-full="assets/img/gallery/twists-held.jpg" data-caption="Two-strand twists with clean parts" data-cursor="View">
+            <img src="assets/img/gallery/twists-held-sm.jpg" alt="Two-strand twists showing clean, even parts at the back" width="540" height="720" loading="lazy" />
+            <span class="g-cap"><small>08</small>Clean-part twists</span>
+          </button>
+          <button class="g-item g-10" data-full="assets/img/gallery/retwist-in-progress.jpg" data-caption="Behind the chair: retwist in progress" data-cursor="View">
+            <img src="assets/img/gallery/retwist-in-progress-sm.jpg" alt="Retwist in progress with roots clipped in place" width="540" height="720" loading="lazy" />
+            <span class="g-cap"><small>09</small>Behind the chair</span>
+          </button>
+          <a class="g-cta" href="#book" data-sms data-cursor="Text">
+            <span class="g-cta__script">Love what you see?</span>
+            <span class="g-cta__big">Book your look</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ BOOKING ============ -->
+    <section class="book" id="book" data-section="book">
+      <img class="book__pattern" src="assets/img/pattern.jpg" alt="" loading="lazy" aria-hidden="true" />
+      <div class="book__blob book__blob--a" aria-hidden="true"></div>
+      <div class="book__blob book__blob--b" aria-hidden="true"></div>
+
+      <div class="container book__grid">
+        <div class="book__copy">
+          <p class="eyebrow" data-reveal="up"><span class="eyebrow__line"></span>Book now</p>
+          <h2 class="display book__title" data-reveal="up">Let’s get you <em>booked.</em></h2>
+          <p class="book__lede" data-reveal="up">Booking is as easy as sending a text. Pick a service, tap the button, and your messages app opens with everything ready to fill in — you review it and hit send.</p>
+
+          <fieldset class="chips" data-reveal="up">
+            <legend>I’m interested in…</legend>
+            <label class="chip"><input type="radio" name="svc" value="Retwist ($70)" /><span>Retwist <b>$70</b></span></label>
+            <label class="chip"><input type="radio" name="svc" value="Retwist + Style ($80)" /><span>Retwist + Style <b>$80</b></span></label>
+            <label class="chip"><input type="radio" name="svc" value="" checked /><span>Not sure yet</span></label>
+          </fieldset>
+
+          <div class="book__actions" data-reveal="up">
+            <a class="btn btn--dark btn--xl btn--shine btn--pulse" href="#book" data-sms data-use-chips data-cursor="Text">
+              <svg class="btn__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H9l-5 4V5Z"/></svg>
+              <span>Let’s Get You Booked</span>
+            </a>
+            <p class="book__phone">or text <a href="#book" data-sms data-use-chips class="js-phone-display">(463) 231-6548</a></p>
+          </div>
+
+          <ol class="steps" role="list">
+            <li data-reveal="up"><span>1</span><p><strong>Tap to text.</strong> Your message opens pre-filled.</p></li>
+            <li data-reveal="up"><span>2</span><p><strong>Add your details.</strong> Name, service, date, time &amp; inspo.</p></li>
+            <li data-reveal="up"><span>3</span><p><strong>Hear back.</strong> Ya Ya replies with availability to confirm.</p></li>
+          </ol>
+          <p class="book__fine" data-reveal="up">Sending a request doesn’t lock in a time — your appointment is confirmed once Ya Ya texts you back.</p>
+        </div>
+
+        <div class="book__visual" data-reveal="up">
+          <div class="phone" aria-label="Preview of the pre-filled booking text message">
+            <div class="phone__notch" aria-hidden="true"></div>
+            <div class="phone__head">
+              <img src="assets/img/logo-badge.jpg" alt="" width="670" height="700" loading="lazy" />
+              <div><strong>Ya Ya</strong><small>Lovely Locs by YaK</small></div>
+            </div>
+            <div class="phone__body">
+              <p class="phone__stamp">Your message preview</p>
+              <div class="bubble"><pre class="js-preview"></pre></div>
+              <p class="phone__delivered">Ready when you are ♡</p>
+            </div>
+          </div>
+
+          <div class="hello" data-reveal="up">
+            <p class="hello__script">Got questions?</p>
+            <p>Don’t be shy — whether it’s about your locs, a style you’ve been dreaming about, or what to expect, reach out. No question is too small, and I’d love to hear from you.</p>
+            <p class="hello__sign">— Ya Ya ♡</p>
+            <div class="socials socials--dark">
+              <a href="https://www.instagram.com/yakira.a" target="_blank" rel="noopener" aria-label="Instagram (opens in a new tab)">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.4" cy="6.6" r=".6"/></svg><span>Instagram</span>
+              </a>
+              <a href="https://www.facebook.com/share/1EoH3sLKGt/" target="_blank" rel="noopener" aria-label="Facebook (opens in a new tab)">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8.5V7c0-.8.5-1.2 1.2-1.2H17V2.6h-2.6C11.7 2.6 10.6 4.3 10.6 7v1.5H8V12h2.6v9.4H14V12h2.6l.5-3.5H14Z"/></svg><span>Facebook</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <img class="footer__badge" src="assets/img/logo-badge.jpg" alt="Lovely Locs by YaK logo" width="670" height="700" loading="lazy" />
+        <nav class="footer__links" aria-label="Footer">
+          <a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a><a href="#gallery">Gallery</a><a href="#book">Book Now</a>
+        </nav>
+        <div class="footer__right">
+          <div class="socials">
+            <a href="https://www.instagram.com/yakira.a" target="_blank" rel="noopener" aria-label="Instagram (opens in a new tab)">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.4" cy="6.6" r=".6"/></svg>
+            </a>
+            <a href="https://www.facebook.com/share/1EoH3sLKGt/" target="_blank" rel="noopener" aria-label="Facebook (opens in a new tab)">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8.5V7c0-.8.5-1.2 1.2-1.2H17V2.6h-2.6C11.7 2.6 10.6 4.3 10.6 7v1.5H8V12h2.6v9.4H14V12h2.6l.5-3.5H14Z"/></svg>
+            </a>
+          </div>
+          <a class="btn btn--rose btn--sm" href="#book" data-sms data-cursor="Text"><span>Text to Book</span></a>
+        </div>
+      </div>
+      <p class="footer__mark" aria-hidden="true">Lovely <em>Locs</em></p>
+      <div class="footer__bottom">
+        <p>© <span class="js-year">2026</span> Lovely Locs by YaK · Neat. Fresh. Confident.</p>
+        <a href="#home" class="footer__top-link">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating mobile booking bar -->
+  <a class="float-book" href="#book" data-sms aria-label="Book your appointment by text">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H9l-5 4V5Z"/></svg>
+    <span>Book Your Appointment</span>
+  </a>
+
+  <!-- Lightbox -->
+  <div class="lightbox" role="dialog" aria-modal="true" aria-label="Gallery image viewer" aria-hidden="true">
+    <button class="lightbox__close" aria-label="Close viewer">×</button>
+    <button class="lightbox__nav lightbox__prev" aria-label="Previous image"><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg></button>
+    <figure class="lightbox__figure">
+      <img class="lightbox__img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" />
+      <figcaption><span class="lightbox__count"></span><span class="lightbox__cap"></span></figcaption>
+    </figure>
+    <button class="lightbox__nav lightbox__next" aria-label="Next image"><svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg></button>
+  </div>
+
+  <!-- Toast (desktop SMS helper) -->
+  <div class="toast" role="status" aria-live="polite">
+    <p class="toast__msg"></p>
+    <button class="toast__copy" type="button">Copy message</button>
+    <button class="toast__x" type="button" aria-label="Dismiss">×</button>
+  </div>
+
+  <script src="js/main.js?v=7" defer></script>
+</body>
+</html>

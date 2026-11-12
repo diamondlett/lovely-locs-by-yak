@@ -1,0 +1,6 @@
+# Source/original assets stay local — only the built site is published
+Branding/
+Me/
+Portfolio /
+.claude/
+.DS_Store
